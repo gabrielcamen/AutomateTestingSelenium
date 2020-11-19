@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Facultate\\Anul 3 Semestrul I\\VVSS\\SeleniumTesting\\SeleniumTesting.csproj": {}
+  },
+  "projects": {
+    "D:\\Facultate\\Anul 3 Semestrul I\\VVSS\\SeleniumTesting\\SeleniumTesting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Facultate\\Anul 3 Semestrul I\\VVSS\\SeleniumTesting\\SeleniumTesting.csproj",
+        "projectName": "SeleniumTesting",
+        "projectPath": "D:\\Facultate\\Anul 3 Semestrul I\\VVSS\\SeleniumTesting\\SeleniumTesting.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultate\\Anul 3 Semestrul I\\VVSS\\SeleniumTesting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Facultate\\Anul 3 Semestrul I\\VVSS\\Tools\\Tools.csproj": {
+                "projectPath": "D:\\Facultate\\Anul 3 Semestrul I\\VVSS\\Tools\\Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "Selenium.Firefox.WebDriver": {
+              "target": "Package",
+              "version": "[0.27.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Facultate\\Anul 3 Semestrul I\\VVSS\\Tools\\Tools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Facultate\\Anul 3 Semestrul I\\VVSS\\Tools\\Tools.csproj",
+        "projectName": "Tools",
+        "projectPath": "D:\\Facultate\\Anul 3 Semestrul I\\VVSS\\Tools\\Tools.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultate\\Anul 3 Semestrul I\\VVSS\\Tools\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
